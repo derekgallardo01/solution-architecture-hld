@@ -1,5 +1,7 @@
 # Solution architecture — HLD & diagram templates
 
+[![CI](https://github.com/derekgallardo01/solution-architecture-hld/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/solution-architecture-hld/actions/workflows/ci.yml)
+
 A high-level design (HLD) document template and a matching architecture-diagram
 template (Mermaid) for Microsoft / Power Platform solutions — the "show me
 your approach" artifact most serious clients ask for before they commit.
