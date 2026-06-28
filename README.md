@@ -2,6 +2,8 @@
 
 [![CI](https://github.com/derekgallardo01/solution-architecture-hld/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/solution-architecture-hld/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](#)
 
+**Docs:** [Getting started](docs/getting-started.md) · [Usage](docs/usage.md) · [Diagrams](docs/diagrams.md) · [FAQ](docs/faq.md)
+
 A high-level design (HLD) document template and a matching architecture-diagram
 template (Mermaid) for Microsoft / Power Platform solutions — the "show me
 your approach" artifact most serious clients ask for before they commit.
