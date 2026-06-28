@@ -40,10 +40,10 @@ See **§Architecture diagram** below.
 1. **User asks a question** in Teams ("What's our NDA carve-out for IP?").
 2. **Sensitive-topic check** runs first on the bare question. If a client
    name / matter-number pattern matches → skip retrieval, send Teams DM to
-   the on-call senior associate, reply "I've flagged this to <name> — they'll
-   come back to you."
+   the on-call senior associate, reply "I've flagged this to {senior
+   associate} — they'll come back to you."
 3. **Retrieval** queries the three knowledge sites; returns top 6 chunks.
-4. **Generation** produces a grounded answer with `[<doc title> – <section>]`
+4. **Generation** produces a grounded answer with `[{doc title} – {section}]`
    citations.
 5. **Reply** delivered in Teams. The chat history holds three turns of
    context so follow-ups like "and the carve-out for confidentiality?" work.
