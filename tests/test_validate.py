@@ -12,9 +12,11 @@ def _abs(rel):
     return os.path.join(ROOT, rel)
 
 
-def test_example_hld_has_no_unfilled_placeholders():
-    issues = validate.lint(_abs("examples/hld-greenfield-logistics.md"))
-    assert issues == [], f"example still has placeholders: {issues[:3]}"
+def test_example_hlds_have_no_unfilled_placeholders():
+    for name in ("examples/hld-greenfield-logistics.md",
+                 "examples/hld-whitford-legal.md"):
+        issues = validate.lint(_abs(name))
+        assert issues == [], f"{name} still has placeholders: {issues[:3]}"
 
 
 def test_bare_hld_template_still_looks_like_a_template():
