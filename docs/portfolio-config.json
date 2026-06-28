@@ -1,0 +1,24 @@
+{
+  "repo": "solution-architecture-hld",
+  "title": "Solution Architecture \u2014 HLD & Diagram Templates",
+  "tagline": "HLD document template + three Mermaid architecture diagrams for Microsoft / Power Platform solutions.",
+  "kicker": "Architecture \u00b7 Documentation \u00b7 Engagement Kit",
+  "features": [
+    {
+      "label": "Templates",
+      "value": "HLD + 3 diagrams"
+    },
+    {
+      "label": "Examples",
+      "value": "2 worked HLDs"
+    },
+    {
+      "label": "Linter",
+      "value": "Skips fenced code"
+    }
+  ],
+  "theme": {
+    "primary": "#2c5282",
+    "accent": "#4a6fa5"
+  }
+}
